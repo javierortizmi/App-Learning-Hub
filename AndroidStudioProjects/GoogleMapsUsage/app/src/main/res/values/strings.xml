@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">GoogleMapsUsage</string>
 
-    <string name="google_maps_key">AIzaSyDXolwMq6kXBF4BhmU7A_QuPJ8O3EN99Yg</string>
+    <string name="google_maps_key">Here goes your google maps id</string>
 </resources>
