@@ -2,7 +2,9 @@
 
 In order to use this projects, download the whole folder of the project and open it with Android Studio. In all of them, you will find some important files such as: MainActivity.kt, AndroidManifest.xml, build.gradle.kts, ...
 
-Here are a few recommended steps when doing this projects:
+[![Android Studio](https://raw.githubusercontent.com/javierortizmi/AppDevelopment/main/AndroidStudio_Header.png)]()
+
+Here are a few recommended steps when doing this projects.
 
 ## Start with the most basic ones:
 

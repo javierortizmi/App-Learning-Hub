@@ -6,4 +6,4 @@ In this repo, I want to upload all the projects and examples used during my lear
 
 In this folder, I'm uploading all the Android Studio projects and updating them with all the new learnt content.
 
-[![Kotlin](https://raw.githubusercontent.com/javierortizmi/AppDevelopment/master/Kotlin_Header.png)]()
+[![Kotlin](https://raw.githubusercontent.com/javierortizmi/AppDevelopment/main/Kotlin_Header.png)]()
