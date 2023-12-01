@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/goodMorning"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:text="@string/goodMorning"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/goodMorningTranslated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/goodMorning"
+        android:layout_alignParentEnd="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/please"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goodMorning"
+        android:layout_marginTop="15dp"
+        android:paddingStart="5dp"
+        android:text="@string/please"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/pleaseTranslated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/please"
+        android:layout_alignTop="@id/please"
+        android:layout_alignParentEnd="true"
+        android:text="" />
+
+    <View
+        android:id="@+id/redLine"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@id/please"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:background="#F00" />
+
+
+    <EditText
+        android:id="@+id/enterAmount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/redLine"
+        android:hint="@string/enterAmount"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/amountNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/enterAmount"
+        android:layout_alignTop="@id/enterAmount"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="10dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/needVisa"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enterAmount"
+        android:layout_marginTop="15dp"
+        android:paddingStart="5dp"
+        android:text="@string/needVisa"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/needVisaAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/needVisa"
+        android:layout_alignTop="@id/needVisa"
+        android:layout_alignParentEnd="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/needVisa"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/update"
+        android:onClick="updateAmount" />
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateButton"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/goBack"
+        android:onClick="goBack" />
+
+</RelativeLayout>

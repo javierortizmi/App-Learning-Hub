@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/ViewStyle"
+        android:id="@+id/gameStatus"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:minWidth="120dp"
+        android:text="@string/play"/>
+
+
+    <LinearLayout
+        android:id="@+id/cardButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gameStatus"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/card1"
+            style="@style/ViewStyle"
+            android:layout_margin="4dp"
+            android:width="80dp"
+            android:text="@string/_0"
+            android:textColor="#000000"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/card2"
+            style="@style/ViewStyle"
+            android:layout_margin="4dp"
+            android:width="80dp"
+            android:text="@string/_0"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/card3"
+            style="@style/ViewStyle"
+            android:layout_margin="4dp"
+            android:width="80dp"
+            android:text="@string/_0"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/card4"
+            style="@style/ViewStyle"
+            android:layout_margin="4dp"
+            android:width="80dp"
+            android:text="@string/_0"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/ViewStyle"
+        android:id="@+id/currentTotal"
+        android:layout_below="@id/cardButtons"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:minWidth="120dp"
+        android:text="@string/total"/>
+
+    <Button
+        android:id="@+id/dealButton"
+        style="@style/ViewStyle"
+        android:layout_below="@id/currentTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:width="120dp"
+        android:onClick="deal"
+        android:text="@string/deal"
+        android:textColor="#000000" />
+
+</RelativeLayout>

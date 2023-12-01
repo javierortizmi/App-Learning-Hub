@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimonGame</string>
+    <string name="reset">RESET</string>
+    <string name="red">Red Button</string>
+    <string name="blue">Blue Button</string>
+    <string name="yellow">Yellow Button</string>
+    <string name="green">Green Button</string>
+</resources>

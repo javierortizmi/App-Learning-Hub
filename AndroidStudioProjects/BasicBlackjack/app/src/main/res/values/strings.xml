@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BasicBlackjack</string>
+    <string name="total">TOTAL</string>
+    <string name="deal">DEAL</string>
+    <string name="_0">0</string>
+    <string name="play">PLAY</string>
+    <string name="won">WON</string>
+    <string name="lost">LOST</string>
+</resources>

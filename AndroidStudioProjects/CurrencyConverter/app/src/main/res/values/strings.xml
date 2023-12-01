@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Project3</string>
+
+    <string name="chooseDestination">Choose a destination</string>
+    <string name="india">India</string>
+    <string name="turkey">Turkey</string>
+    <string name="mexico">Mexico</string>
+    <string name="italy">Italy</string>
+
+    <string name="exchangeRate">Exchange rate: $1 =&#160;</string>
+    <string name="introduceRate">₹/₺/$/€</string>
+    <string name="done">Done</string>
+    <string name="goodMorning">Good Morning</string>
+    <string name="please">Please</string>
+    <string name="enterAmount">Enter $ amount</string>
+    <string name="needVisa">Need Visa?</string>
+    <string name="update">Update</string>
+    <string name="goBack">Go Back</string>
+
+    <string name="goodMorningIndia">शुभ प्रभात</string>
+    <string name="goodMorningTurkey">Günaydın</string>
+    <string name="goodMorningMexico">Buenos días</string>
+    <string name="goodMorningItaly">Buongiorno</string>
+    <string name="pleaseIndia">कृपया</string>
+    <string name="pleaseTurkey">Lütfen</string>
+    <string name="pleaseMexico">Por favor</string>
+    <string name="pleaseItaly">Per favore</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="yesButNo">No, yes if > 3 months</string>
+
+</resources>

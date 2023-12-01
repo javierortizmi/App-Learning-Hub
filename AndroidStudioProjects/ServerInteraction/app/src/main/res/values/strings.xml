@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Project5</string>
+
+    <string name="read">READ</string>
+    <string name="write">WRITE</string>
+
+    <string name="urlWrite">https://cmsc436–2301.cs.umd.edu/project5Write.php</string>
+
+    <string name="write_JSON_string">data={"email":"hi@example.com", "name":"Javier", "number":10}</string>
+
+    <string name="readResult">%1$s will be %2$d years old</string>
+    <string name="na">NA</string>
+
+    <string name="introduceEmail">Introduce Email: </string>
+    <string name="introduceName">Introduce Name: </string>
+    <string name="introduceAge">Introduce Age: </string>
+
+    <string name="emailHint">john@example.com</string>
+    <string name="nameHint">John</string>
+    <string name="ageHint">21</string>
+</resources>
